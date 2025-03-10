@@ -27,19 +27,36 @@ body {
 header {
     display: flex;
     background-color: aqua;
-    padding: 20px;
+    padding: 10px 20px;
+    align-items: center;
     justify-content: space-between;
     width: 100%;
+    /* Padding doesn't affect the width */
+    box-sizing: border-box;
     text-decoration: none;
-    align-items: center;
 }
 
 #menu {
+    list-style: none;
     text-decoration: none;
+    display: flex;
+    gap: 20px;
 }
 
-#menu > li {
+#menu li {
+    display: inline;
+}
 
+#menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#menu a:hover {
+    color: blue;
 }
 
 #logo {
