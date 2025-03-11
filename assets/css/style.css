@@ -45,6 +45,10 @@ nav ul li a {
     font-weight: bold;
 }
 
+.active {
+    margin-bottom: 1.5em;
+}
+
 /* Main */
 main {
     background-color: #f9f9f9;
