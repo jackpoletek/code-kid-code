@@ -53,6 +53,7 @@ main {
     flex: 1 0 auto;
 }
 
+/* Hero */
 .hero {
     background: url("assets\images\minecraft-education-example.webp");
     height: 350px;
@@ -75,9 +76,38 @@ main {
     margin-bottom: 15px;
 }
 
+/* Reasons */
+.reasons {
+    padding: 40px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.benefits {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.benefit {
+    width: 25px;
+    margin-bottom: 20px;
+}
+
+benefit i {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+benefit h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
 /* Button Classes */
 .cta-button-orange {
     background-color: #FFA62B;
+    opacity: 1;
 }
 
 .cta-button-text-white {
