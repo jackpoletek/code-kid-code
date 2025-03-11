@@ -13,12 +13,20 @@ body {
     color: #626C66;
 }
 
+/* Button Classes */
 .cta-button-orange {
     background-color: #FFA62B;
 }
 
 .cta-button-text-white {
     color: white;
+    font-weight: bold;
+}
+
+.cta-button-shape-rounded {
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px 20px;
 }
 
 /* Header */
