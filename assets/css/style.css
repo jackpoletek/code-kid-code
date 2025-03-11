@@ -75,10 +75,12 @@ main {
 
 .hero h1 {
     font-size: 3rem;
+    margin-bottom: 10px;
 }
 
 .hero p {
     font-size: 1.3rem;
+    margin-bottom: 15px;
 }
 
 /* Footer */
