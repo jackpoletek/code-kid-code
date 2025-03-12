@@ -156,14 +156,19 @@ main {
     max-width: 300px;
     text-align: center;
     margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
 }
 
 .course img {
-    width: 100%;
-    height: auto;
+    width: 48px;
+    height: 48px;
     margin-bottom: 10px;
-    object-fit: cover;
-    border-radius: 10px;
+    object-fit: contain;
+    display: block;
 }
 
 .signup {
