@@ -25,7 +25,8 @@ header {
 }
 
 .logo {
-    height: 50px
+    height: 90px;
+    width: 90px
 }
 
 #nav-toggle {
@@ -139,6 +140,26 @@ main {
     border-radius: 20px;
     padding: 10px 20px;
 }
+
+/* Courses Page */
+.course-list {
+    padding: 40px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.course {
+    margin-bottom: 20px;
+}
+
+.course img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* About Page */
 
 /* Footer */
 footer {
