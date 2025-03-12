@@ -184,8 +184,10 @@ main {
 }
 
 .signup label {
-    display: block;
-    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 1rem;
 }
 
 .signup input {
@@ -199,6 +201,10 @@ main {
 .signup fieldset {
     border: none;
     margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
 }
 
 .signup legend {
