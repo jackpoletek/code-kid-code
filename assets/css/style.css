@@ -25,8 +25,7 @@ header {
 }
 
 .logo {
-    height: 90px;
-    width: 90px
+    height: 40px;
 }
 
 #nav-toggle {
@@ -146,17 +145,25 @@ main {
     padding: 40px 20px;
     background-color: white;
     text-align: center;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }
 
 .course {
+    max-width: 300px;
+    text-align: center;
     margin-bottom: 20px;
 }
 
 .course img {
     width: 100%;
-    max-width: 300px;
     height: auto;
     margin-bottom: 10px;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 .signup {
@@ -221,4 +228,16 @@ footer ul li {
 footer ul li a {
     color: white;
     text-decoration: none;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .course-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .course {
+        max-width: 100%;
+    }
 }
