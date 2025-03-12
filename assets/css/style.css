@@ -222,6 +222,12 @@ main {
 
 /* About Page */
 
+.about {
+    padding: 40px 20px;
+    background-color: white;
+    text-align: center;
+}
+
 /* Footer */
 footer {
     background-color: #2c3e50;
