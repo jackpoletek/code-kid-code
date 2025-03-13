@@ -24,6 +24,26 @@ header {
     box-sizing: border-box;
 }
 
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 40px 0 20px 0;
+    color: #2c3e50;
+}
+
+.hr-container {
+    background-color: #f9f9f9;
+    padding: 10px 0;
+}
+
+hr {
+    width: 80%;
+    max-width: 600px;
+    /* Center hr */
+    margin: 0 auto;
+    border: 1px solid #2c3e50;
+}
+
 .logo {
     height: 40px;
 }
@@ -74,7 +94,7 @@ main {
 
 /* Hero */
 .hero {
-    background: url("../images/minecraft-education-bg.webp") center/cover no-repeat;
+    background: url("../images/minecraft-education-bg-2.webp") center/cover no-repeat;
     height: 350px;
     display: flex;
     flex-direction: column;
@@ -304,6 +324,18 @@ footer ul li a {
 /* Responsiveness */
 @media (max-width: 768px) {
 
+    h1 {
+        /* Smaller font size */
+        font-size: 2rem;
+        /* Adjust spacing */
+        margin: 20px 0 10px 0;
+    }
+
+    hr {
+        /* Make hr wider for mobile */
+        width: 90%;
+    }
+
     .cta-button-orange {
         padding: 15px 20px;
         width: 90%;
@@ -353,4 +385,5 @@ footer ul li a {
         /* Disable hover scaling */
         transform: scale(1);
     }
+
 }
