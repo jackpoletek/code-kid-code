@@ -12,6 +12,10 @@ body {
     min-height: 100vh;
 }
 
+p {
+    font-size: 1.1rem;
+}
+
 /* Colour Classes */
 .bg-color-ebony {
     color: #626C66;
@@ -24,7 +28,7 @@ header {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    /* Padding doesn't affect the width */
+    /* padding doesn't affect the width */
     box-sizing: border-box;
 }
 
@@ -41,9 +45,9 @@ h1 {
 }
 
 hr {
-    width: 80%;
+    width: 50%;
     max-width: 600px;
-    /* Center hr */
+    /* centre hr */
     margin: 0 auto;
     border: 1px solid #2c3e50;
 }
@@ -105,7 +109,7 @@ main {
     justify-content: center;
     align-items: center;
     text-align: center;
-    opacity: 0.5;
+    opacity: 0.7;
     padding: 0 20px;
 }
 
@@ -174,6 +178,7 @@ main {
     color: #333;
     max-width: 800px;
     margin: 0 auto;
+    text-align: left;
 }
 
 /* Button Classes */
@@ -204,6 +209,47 @@ main {
 }
 
 /* Courses Page */
+
+.courses-header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    /* images don't overflow */
+    overflow: hidden;
+}
+
+.courses-header h1 {
+    position: relative;
+    /* heading is above images */
+    z-index: 2;
+    font-size: 2.5rem;
+    color: #2c3e50;
+    text-align: center;
+    margin: 0;
+}
+
+.background-left,
+.background-right {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    /* aspect ratio maintained */
+    width: auto;
+    /* images behind heading */
+    z-index: 1;
+}
+
+.background-left {
+    left: 0;
+}
+
+.background-right {
+    right: 0;
+}
+
 .course-list {
     padding: 40px 20px;
     background-color: white;
@@ -349,7 +395,7 @@ main {
     border-radius: 10px;
 }
 
-/* Change stacking order - middle pic */
+/* change stacking order - middle pic */
 .photo:nth-child(2) {
     z-index: 3;
 }
@@ -418,28 +464,42 @@ footer ul li a {
     }
 
     .photo:nth-child(2) {
-        /* Reset the size of image */
+        /* reset image size */
         transform: scale(1);
-        /* Reset z-index for */
+        /* reset z-index for */
         z-index: 1;
     }
 
     .photo:hover {
-        /* Disable hover scaling */
+        /* disable hover scaling */
         transform: scale(1);
     }
 
     /* Courses */
     h1 {
-        /* Smaller font size */
+        /* smaller font size */
         font-size: 2rem;
-        /* Adjust spacing */
+        /* adjust spacing */
         margin: 20px 0 10px 0;
     }
 
     hr {
-        /* Make hr wider for mobile */
+        /* hr wider for mobile */
         width: 90%;
+    }
+
+    .courses-header {
+        padding: 20px 10px;
+    }
+
+    .courses-header h1 {
+        font-size: 2rem;
+    }
+
+    .background-left,
+    .background-right {
+        width: 50%;
+        height: auto;
     }
 
     .course-list {
