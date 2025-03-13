@@ -261,12 +261,43 @@ main {
     text-align: center;
 }
 
+.about h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1rem;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+}
+
+.about .hr-container {
+    background-color: white;
+    padding: 10px 0;
+}
+
+.about hr {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid #2c3e50;
+}
+
 /* Gallery */
 
 .gallery {
     padding: 40px 20px;
     background-color: #f9f9f9;
     text-align: center;
+}
+
+.gallery h2 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
 }
 
 .photos {
@@ -324,18 +355,6 @@ footer ul li a {
 /* Responsiveness */
 @media (max-width: 768px) {
 
-    h1 {
-        /* Smaller font size */
-        font-size: 2rem;
-        /* Adjust spacing */
-        margin: 20px 0 10px 0;
-    }
-
-    hr {
-        /* Make hr wider for mobile */
-        width: 90%;
-    }
-
     .cta-button-orange {
         padding: 15px 20px;
         width: 90%;
@@ -351,15 +370,7 @@ footer ul li a {
         margin: 20px auto;
     }
 
-    .course-list {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .course {
-        max-width: 100%;
-    }
-
+    /* Home */
     .benefit {
         width: 100%;
     }
@@ -386,4 +397,57 @@ footer ul li a {
         transform: scale(1);
     }
 
+    /* Courses */
+    h1 {
+        /* Smaller font size */
+        font-size: 2rem;
+        /* Adjust spacing */
+        margin: 20px 0 10px 0;
+    }
+
+    hr {
+        /* Make hr wider for mobile */
+        width: 90%;
+    }
+
+    .course-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .course {
+        max-width: 100%;
+    }
+
+    /* About */
+    .about {
+        padding: 40px 20px;
+        background-color: white;
+        text-align: center;
+    }
+
+    .about h1 {
+        font-size: 2.5rem;
+        color: #2c3e50;
+        margin-bottom: 20px;
+    }
+
+    .about p {
+        font-size: 1.1rem;
+        color: #333;
+        max-width: 800px;
+        margin: 0 auto 20px auto;
+    }
+
+    .about .hr-container {
+        background-color: white;
+        padding: 10px 0;
+    }
+
+    .about hr {
+        width: 80%;
+        max-width: 600px;
+        margin: 0 auto;
+        border: 1px solid #2c3e50;
+    }
 }
