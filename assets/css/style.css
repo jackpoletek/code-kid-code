@@ -80,13 +80,9 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    opacity: 0.3;
     text-align: center;
+    opacity: 0.3;
     padding: 0 20px;
-}
-
-#see-courses {
-    opacity: 1;
 }
 
 .hero h1 {
@@ -131,8 +127,6 @@ main {
 .cta-button-orange {
     background-color: #FFA62B;
     opacity: 1;
-    /* button appears above bg */
-    position: relative;
 }
 
 .cta-button-text-white {
@@ -144,6 +138,9 @@ main {
     text-decoration: none;
     border-radius: 20px;
     padding: 10px 20px;
+    margin: 20px auto;
+    /* button will behave like a block element */
+    display: inline-block;
 }
 
 /* Courses Page */
