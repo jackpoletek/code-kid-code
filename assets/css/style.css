@@ -305,11 +305,18 @@ footer ul li a {
 @media (max-width: 768px) {
 
     .cta-button-orange {
-        padding: 12px 24px;
-        font-size: 1rem;
-        display: inline-block;
+        padding: 15px 20px;
         width: 90%;
         max-width: none;
+    }
+
+    .cta-button-text-white {
+        font-size: 1rem;
+    }
+
+    .cta container {
+        width: 90%;
+        margin: 20px auto;
     }
 
     .course-list {
