@@ -74,7 +74,7 @@ main {
 
 /* Hero */
 .hero {
-    background: url("assets/images/minecraft-education-example.webp");
+    background: url("../images/minecraft-education-example.webp");
     height: 350px;
     display: flex;
     flex-direction: column;
@@ -127,6 +127,8 @@ main {
 .cta-button-orange {
     background-color: #FFA62B;
     opacity: 1;
+    /* button appears above bg */
+    position: relative;
 }
 
 .cta-button-text-white {
