@@ -1,3 +1,6 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@400;700&display=swap");
+
 /* General Styles */
 body {
     margin: 0;
@@ -177,7 +180,8 @@ main {
     background-color: #FFA62B;
     width: 80%;
     max-width: 200px;
-    display: inline-block;
+    /* buutton centred */
+    display: block;
     text-align: center;
     opacity: 1;
 }
