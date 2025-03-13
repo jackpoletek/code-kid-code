@@ -116,9 +116,11 @@ main {
 }
 
 .cta-container {
-    opacity: 1;
+    display: flex;
+    align-items: center;
     justify-content: center;
     margin-top: 20px;
+    width: 100%;
 }
 
 /* Reasons */
@@ -176,6 +178,7 @@ main {
     width: 80%;
     max-width: 200px;
     display: inline-block;
+    text-align: center;
     opacity: 1;
 }
 
