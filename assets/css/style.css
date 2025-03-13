@@ -371,6 +371,7 @@ footer ul {
     padding: 0;
     display: flex;
     justify-content: center;
+    gap: 20px;
 }
 
 footer ul li {
@@ -380,15 +381,16 @@ footer ul li {
 footer ul li a {
     color: white;
     text-decoration: none;
+    font-size: 1.5rem;
 }
 
 /* Responsiveness */
 @media (max-width: 768px) {
 
     .cta-button-orange {
-        padding: 15px 20px;
         width: 50%;
         max-width: none;
+        padding: 15px 20px;
     }
 
     .cta-button-text-white {
@@ -479,5 +481,21 @@ footer ul li a {
         max-width: 600px;
         margin: 0 auto;
         border: 1px solid #2c3e50;
+    }
+
+    /* Footer */
+    footer {
+        /* reduced padding */
+        padding: 30px 15px;
+    }
+
+    footer ul {
+        /* vertical stack */
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    footer ul li a {
+        font-size: 1.2rem;
     }
 }
