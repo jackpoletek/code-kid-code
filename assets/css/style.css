@@ -74,14 +74,14 @@ main {
 
 /* Hero */
 .hero {
-    background: url("../images/minecraft-education-example.webp");
+    background: url("../images/minecraft-education-bg.webp") center/cover no-repeat;
     height: 350px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    opacity: 0.3;
+    opacity: 0.5;
     padding: 0 20px;
 }
 
@@ -93,6 +93,11 @@ main {
 .hero p {
     font-size: 1.3rem;
     margin-bottom: 15px;
+}
+
+.cta-container {
+    opacity: 1;
+    margin-top: 20px;
 }
 
 /* Reasons */
@@ -126,11 +131,16 @@ main {
 /* Button Classes */
 .cta-button-orange {
     background-color: #FFA62B;
+    width: 80%;
+    max-width: 200px;
+    display: inline-block;
     opacity: 1;
 }
 
 .cta-button-text-white {
     color: white;
+    text-align: center;
+    text-decoration: none;
     font-weight: bold;
 }
 
@@ -298,6 +308,8 @@ footer ul li a {
         padding: 12px 24px;
         font-size: 1rem;
         display: inline-block;
+        width: 90%;
+        max-width: none;
     }
 
     .course-list {
