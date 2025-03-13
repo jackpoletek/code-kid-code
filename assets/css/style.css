@@ -210,46 +210,6 @@ main {
 
 /* Courses Page */
 
-.courses-header {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 40px 20px;
-    background-color: #f9f9f9;
-    /* images don't overflow */
-    overflow: hidden;
-}
-
-.courses-header h1 {
-    position: relative;
-    /* heading is above images */
-    z-index: 2;
-    font-size: 2.5rem;
-    color: #2c3e50;
-    text-align: center;
-    margin: 0;
-}
-
-.background-left,
-.background-right {
-    position: absolute;
-    top: 0;
-    height: 100%;
-    /* aspect ratio maintained */
-    width: auto;
-    /* images behind heading */
-    z-index: 1;
-}
-
-.background-left {
-    left: 0;
-}
-
-.background-right {
-    right: 0;
-}
-
 .course-list {
     padding: 40px 20px;
     background-color: white;
@@ -486,20 +446,6 @@ footer ul li a {
     hr {
         /* hr wider for mobile */
         width: 90%;
-    }
-
-    .courses-header {
-        padding: 20px 10px;
-    }
-
-    .courses-header h1 {
-        font-size: 2rem;
-    }
-
-    .background-left,
-    .background-right {
-        width: 50%;
-        height: auto;
     }
 
     .course-list {
