@@ -305,4 +305,17 @@ footer ul li a {
     .course {
         max-width: 100%;
     }
+
+    .benefit {
+        width: 100%;
+    }
+
+    .photos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .photo {
+        max-width: 100%;
+    }
 }
