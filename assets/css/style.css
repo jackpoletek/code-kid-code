@@ -54,6 +54,7 @@ hr {
 
 .logo {
     height: 40px;
+    margin-top: 20px;
 }
 
 #nav-toggle {
@@ -414,6 +415,11 @@ footer ul li a {
     }
 
     /* Home */
+
+    .logo {
+        margin-bottom: 20px;
+    }
+
     .benefit {
         width: 100%;
     }
@@ -507,6 +513,6 @@ footer ul li a {
     }
 
     footer ul li a {
-        font-size: 1.2rem;
+        font-size: 2rem;
     }
 }
