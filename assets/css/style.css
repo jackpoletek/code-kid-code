@@ -48,7 +48,7 @@ hr {
     width: 50%;
     max-width: 600px;
     /* centre hr */
-    margin: 0 auto;
+    margin: 25px auto;
     border: 1px solid #2c3e50;
 }
 
@@ -91,6 +91,7 @@ nav ul li a {
 
 .active {
     margin-bottom: 1.5em;
+    text-decoration: underline;
 }
 
 /* Main */
@@ -114,14 +115,22 @@ main {
     padding: 0 20px;
 }
 
+.hero h1, p {
+    color: black;
+}
+
 .hero h1 {
     font-size: 3rem;
     margin-bottom: 10px;
 }
 
 .hero p {
-    font-size: 1.3rem;
-    margin-bottom: 15px;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.hero a:hover {
+    color: darkorange;
 }
 
 .cta-container {
@@ -313,21 +322,6 @@ main {
     line-height: 1.8;
 }
 
-.about .hr-container {
-    background: url("../images/teacher-kid-programming.webp") center/cover no-repeat;
-    padding: 20px 0;
-    margin-bottom: 30px;
-    max-width: 800px;
-    margin: 0 auto 30px auto;
-}
-
-.about hr {
-    width: 60%;
-    max-width: 400px;
-    margin: 0 auto;
-    border: 2px solid #2c3e50;
-}
-
 /* Gallery */
 
 .gallery {
@@ -417,7 +411,7 @@ footer ul li a {
     /* Home */
 
     .logo {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 
     .benefit {
@@ -486,18 +480,6 @@ footer ul li a {
         color: #333;
         max-width: 800px;
         margin: 0 auto 20px auto;
-    }
-
-    .about .hr-container {
-        background-color: white;
-        padding: 10px 0;
-    }
-
-    .about hr {
-        width: 80%;
-        max-width: 600px;
-        margin: 0 auto;
-        border: 1px solid #2c3e50;
     }
 
     /* Footer */
