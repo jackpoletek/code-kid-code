@@ -440,6 +440,10 @@ footer ul li a {
         transform: scale(1);
     }
 
+    .hero p {
+        margin-top: auto;
+    }
+
     /* Courses */
     h1 {
         /* smaller font size */
