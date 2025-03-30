@@ -397,23 +397,18 @@ footer ul li a {
 }
 
 /* Responsiveness */
-@media (max-width: 768px) {
+@media (min-width: 768px) {
 
     /* Burger menu */
     .nav-toggle-label {
-        display: block;
-        position: absolute;
-        top: 1rem;
-        right: 1rem;
-        font-size: 1.5rem;
-        cursor: pointer;
-        z-index: 100;
+        display: none;
     }
 
     /* Menu styling */
     nav {
-        display: none;
-        position: absolute;
+        display: block;
+        position: relative;
+        width: fit-content;
     }
     
     .nav-toggle:checked ~ nav {
