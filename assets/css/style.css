@@ -52,6 +52,10 @@ hr {
     border: 1px solid #2c3e50;
 }
 
+#home-hr-container {
+    background-color: white;
+}
+
 .logo {
     height: 40px;
     margin-top: 20px;
@@ -129,7 +133,7 @@ main {
     margin-bottom: 10px;
 }
 
-.hero a:hover {
+a[href="index.html"] {
     color: darkorange;
 }
 
