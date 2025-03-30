@@ -133,8 +133,8 @@ main {
     margin-bottom: 10px;
 }
 
-a[href="courses.html"] {
-    color: darkorange;
+.hero .cta-button-orange:hover {
+    background-color: darkorange;
 }
 
 .cta-container {
