@@ -228,11 +228,13 @@ main {
     padding: 40px 20px;
     background-color: white;
     text-align: center;
-
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     gap: 20px;
+    max-width: 1200px;
+    /* Centre section */
+    margin: 0 auto;
 }
 
 .course {
@@ -525,5 +527,21 @@ footer ul li a {
 
     footer ul li a {
         font-size: 2rem;
+    }
+
+    /* Large Screens */
+    @media (min-width: 992px) {
+        .course-list {
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            gap: 30px;
+        }
+    
+        .course {
+        /* Equal width */
+        flex: 1;
+        /* Single row so no margin */
+        margin-bottom: 0;
+    }
     }
 }
