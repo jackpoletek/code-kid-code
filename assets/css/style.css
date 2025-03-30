@@ -48,7 +48,7 @@ hr {
     width: 50%;
     max-width: 600px;
     /* centre hr */
-    margin: 0 auto;
+    margin: 25px auto;
     border: 1px solid #2c3e50;
 }
 
@@ -66,9 +66,14 @@ hr {
 }
 
 .nav-toggle-label {
+    display: none;
     font-size: 1.5rem;
     color: white;
-    display: none;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
 }
 
 nav {
@@ -401,14 +406,23 @@ footer ul li a {
 
     /* Burger menu */
     .nav-toggle-label {
-        display: none;
+        display: block;
     }
 
     /* Menu styling */
     nav {
-        display: block;
-        position: relative;
-        width: fit-content;
+        display: none;
+        position: absolute;
+        text-align: center;
+    }
+
+    #menu {
+        flex-direction: column;
+    }
+
+    #menu a {
+        flex-direction: column;
+        gap: 10px;
     }
     
     .nav-toggle:checked ~ nav {
