@@ -48,7 +48,7 @@ hr {
     width: 50%;
     max-width: 600px;
     /* centre hr */
-    margin: 25px auto;
+    margin: 0 auto;
     border: 1px solid #2c3e50;
 }
 
@@ -396,6 +396,27 @@ footer ul li a {
 
 /* Responsiveness */
 @media (max-width: 768px) {
+
+    /* Burger menu */
+    .nav-toggle-label {
+        display: block;
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        font-size: 1.5rem;
+        cursor: pointer;
+        z-index: 100;
+    }
+
+    /* Menu styling */
+    nav {
+        display: none;
+        position: absolute;
+    }
+    
+    .nav-toggle:checked ~ nav {
+        display: block;
+    }
 
     .cta-button-orange {
         width: 50%;
