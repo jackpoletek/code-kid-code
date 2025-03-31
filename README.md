@@ -1,68 +1,86 @@
-﻿# code-kid-code
-Code Kid Code
-Code Kid Code Logo
-A fun and interactive coding platform for kids aged 7-9!
+# Code Kid Code  
+![Code Kid Code Logo](assets/images/logo.png)  
 
-About the Project
-Code Kid Code is a website designed to introduce kids aged 7-9 to the exciting world of coding. Using Microsoft MakeCode and Minecraft Education, kids can learn programming concepts like loops, conditions, and problem-solving while having fun building games and exploring creative projects.
+A fun and interactive coding platform for kids aged 7-9!  
 
-This platform is perfect for:
+## About the Project  
+Code Kid Code teaches programming fundamentals through Microsoft MakeCode and Minecraft Education. Designed for young learners, it transforms abstract concepts like loops and variables into engaging game-building experiences.  
 
-Kids who love games, puzzles, and building things.
+**Key Differentiators**:  
+- Child-focused UX with vibrant visuals  
+- Parent-friendly course explanations  
+- Seamless progression from basics to creative projects  
 
-Parents who want to help their children develop critical thinking, creativity, and problem-solving skills for a brighter future.
+### Business Goals  
+1. Make coding accessible for young children  
+2. Showcase project examples through interactive demos  
+3. Drive course enrollment via clear CTAs  
 
-Features
-Interactive Courses: Learn coding through fun projects with MakeCode and Minecraft Education.
+### User Goals  
+- **Kids**: Learn through play with familiar tools (Minecraft)  
+- **Parents**: Find age-appropriate, structured learning paths  
 
-Engaging Content: Clear explanations, step-by-step guides, and hands-on activities.
+## UX  
 
-Parent-Friendly: Easy-to-understand information for parents to support their kids’ learning journey.
+### Ideal User  
+- Children aged 7-9  
+- English-speaking families  
+- Parents valuing STEM education  
 
-Live Demo
-👉 View the Live Website
+### Key User Journeys  
+1. **Explorer**:  
+   - Visits Gallery → Checks Pricing → Views "How It Works"  
+2. **Ready-to-Learn**:  
+   - Goes directly to Courses → Signs Up  
 
-How to Run This Project Locally
-Clone the repository:
+### Wireframes  
+- [Home](wireframes/home.png)  
+- [Courses](wireframes/courses.png)  
+- [About](wireframes/about.png)  
 
-bash
-Copy
-git clone https://github.com/jackpoletek/code-kid-code.git
-Navigate to the project directory:
+## Features  
 
-bash
-Copy
-cd code-kid-code
-Open index.html in your browser:
+### Current Implementation  
+**Cross-site Elements**:  
+- Responsive burger menu (mobile)  
+- Consistent orange/blue CTA buttons  
+- Social media footer  
 
-Double-click the file or use a live server extension in your code editor.
+**Page-Specific Features**:  
+| Page | Highlights |  
+|-------|------------|  
+| **Home** | Hero video, benefit icons, future-focused CTA |  
+| **Courses** | Interactive course cards, pricing with visual bg |  
+| **About** | Student gallery, mission statement |  
 
-Technologies Used
-HTML: For structuring the website.
+### Future Enhancements  
+- [ ] Parent dashboard for progress tracking  
+- [ ] Interactive coding demos (JS/Codepen)  
+- [ ] Multilingual support  
 
-CSS: For styling and responsive design.
+## Technologies  
+**Core**:  
+- HTML5  
+- CSS3 (Flexbox/Grid)  
 
-Font Awesome: For icons.
+**Integration**:  
+- Bootstrap 5 (Responsive grids)  
+- Font Awesome 6 (Icons)  
+- Google Fonts (Roboto/Poppins)  
 
-Google Fonts: For typography.
+**Optimization**:  
+- WebP images  
+- Mobile-first media queries  
 
-Credits
-Media
-Images sourced from Unsplash.
+## Testing  
+Full testing details in [TESTING.md](TESTING.md)  
 
-Icons and assets from Minecraft Education and Microsoft.
+**Verified**:  
+- Form validation  
+- Cross-browser compatibility  
+- Mobile responsiveness  
 
-Code
-CSS code inspired by lessons from Code Institute.
-
-Testing
-HTML validated using W3C Markup Validation Service.
-
-CSS validated using W3C CSS Validation Service.
-
-GitHub Repository
-Explore the code and contribute to the project:
-👉 Code Kid Code GitHub Repository
-
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+## Deployment  
+1. GitHub Pages:  
+   ```bash
+   git push origin main  
