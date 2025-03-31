@@ -295,6 +295,14 @@ main {
     border-radius: 5px;
 }
 
+.signup select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
 .signup fieldset {
     border: none;
     margin-bottom: 10px;
