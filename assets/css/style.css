@@ -126,18 +126,20 @@ main {
     padding: 0 20px;
 }
 
-.hero h1, p {
+.hero h1,
+p {
     color: black;
 }
 
 .hero h1 {
     font-size: 3rem;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .hero p {
     font-size: 2rem;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 .hero .cta-button-orange:hover {
@@ -238,7 +240,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     /* display divs inside horizontally */
-    justify-content:center;
+    justify-content: center;
     gap: 20px;
     max-width: 1200px;
     /* Centre section */
@@ -420,14 +422,14 @@ footer ul li a {
         display: block;
     }
 
-    #nav-toggle:checked ~ nav {
+    #nav-toggle:checked~nav {
         display: block;
     }
 
     /* Menu styling */
     nav {
         display: none;
-        position:relative;
+        position: relative;
         text-align: center;
     }
 
@@ -440,8 +442,8 @@ footer ul li a {
         flex-direction: column;
         gap: 10px;
     }
-    
-    .nav-toggle:checked ~ nav {
+
+    .nav-toggle:checked~nav {
         display: block;
     }
 
@@ -464,6 +466,16 @@ footer ul li a {
 
     .logo {
         margin-bottom: 10px;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .hero p {
+        font-size: 1.5rem;
     }
 
     .benefit {
@@ -553,4 +565,23 @@ footer ul li a {
     footer ul li a {
         font-size: 2rem;
     }
+
+    /* Tablet */
+    @media (min-width: 768px) and (max-width: 380px) {
+        .hero h1 {
+            font-size: 3rem;
+            margin-top: 50px;
+            margin-bottom: 0px;
+            /* less spacing between h1 and p */
+            line-height: 1.1;
+        }
+
+        .hero p {
+            font-size: 2rem;
+            margin-top: 0.5em;
+            margin-bottom: 50px;
+            line-height: 1.3;
+        }
+    }
+
 }
