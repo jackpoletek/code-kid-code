@@ -363,7 +363,6 @@ p {
 .about p {
     font-size: 1.2rem;
     color: #333;
-    background-color: white;
     max-width: 800px;
     margin: 0 auto 30px auto;
     /* better readability */
