@@ -42,13 +42,15 @@ h1 {
 .hr-container {
     background-color: #f9f9f9;
     padding: 10px 0;
+    text-align: center;
 }
 
 hr {
+    display: inline-block;
     width: 50%;
     max-width: 600px;
     /* centre hr */
-    margin: 25px auto;
+    margin: 25px 0;
     border: 1px solid #2c3e50;
 }
 
@@ -403,9 +405,13 @@ footer ul li a {
 }
 
 /* Responsiveness */
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 
     /* Burger menu */
+    .nav-toggle-label {
+        display: block;
+    }
+
     #nav-toggle:checked ~ nav {
         display: block;
     }
@@ -413,12 +419,13 @@ footer ul li a {
     /* Menu styling */
     nav {
         display: none;
-        position: absolute;
+        position:relative;
         text-align: center;
     }
 
     #menu {
         flex-direction: column;
+        margin-right: 15px;
     }
 
     #menu a {
