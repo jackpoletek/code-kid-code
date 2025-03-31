@@ -36,6 +36,7 @@ h1 {
     text-align: center;
     font-size: 2.5rem;
     margin: 40px 0 20px 0;
+    padding-top: 20px;
     color: #2c3e50;
 }
 
@@ -142,8 +143,16 @@ p {
     margin-top: 10px;
 }
 
-.hero .cta-button-orange:hover {
+.cta-button-orange:hover {
     background-color: darkorange;
+}
+
+.pricing .cta-button-orange {
+    background-color: blue;
+}
+
+.pricing .cta-button-orange:hover {
+    background-color: darkblue;
 }
 
 .cta-container {
@@ -232,8 +241,7 @@ p {
 }
 
 /* Courses Page */
-
-.course-list {
+.section-of-3 {
     padding: 40px 20px;
     background-color: white;
     text-align: center;
@@ -247,7 +255,7 @@ p {
     margin: 0 auto;
 }
 
-.course {
+.div-of-3 {
     max-width: 300px;
     text-align: center;
     margin-bottom: 20px;
@@ -521,12 +529,12 @@ footer ul li a {
         width: 90%;
     }
 
-    .course-list {
+    .section-of-3 {
         flex-direction: column;
         align-items: center;
     }
 
-    .course {
+    .div-of-3 {
         max-width: 100%;
     }
 
