@@ -266,6 +266,22 @@ p {
     background-position: center;
 }
 
+.pricing-image-wrapper {
+    background: url("../images/teacher-kid-programming.webp") center/cover;
+    padding: 40px 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    gap: 20px;
+}
+
+.pricing-image-wrapper .section-of-3 {
+    background: transparent;
+}
+
+.pricing-image-wrapper .div-of-3 {
+    background: rgba(255,255,255,0.85);
+}
+
 .course-icon {
     display: flex;
     justify-content: center;
