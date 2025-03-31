@@ -34,9 +34,7 @@ Code Kid Code teaches programming fundamentals through Microsoft MakeCode and Mi
    - Goes directly to Courses → Signs Up  
 
 ### Wireframes  
-- [Home](wireframes/home.png)  
-- [Courses](wireframes/courses.png)  
-- [About](wireframes/about.png)  
+- sketched by hand 
 
 ## Features  
 
@@ -73,7 +71,7 @@ Code Kid Code teaches programming fundamentals through Microsoft MakeCode and Mi
 - Mobile-first media queries  
 
 ## Testing  
-Full testing details in [TESTING.md](TESTING.md)  
+- tested in browser
 
 **Verified**:  
 - Form validation  
