@@ -1,6 +1,6 @@
 # Code Kid Code
 
-[View Repository in GitHub Pages](https://github.com/jackpoletek/code-kid-code)
+[View Repository in GitHub Pages](https://github.com/jackpoletek/code-kid-code) <br>
 [View Website](https://jackpoletek.github.io/code-kid-code/)
 
 A fun and interactive coding platform for kids aged 7-9, teaching programming through Microsoft MakeCode and Minecraft Education.
@@ -40,48 +40,48 @@ Code Kid Code transforms programming fundamentals (loops, variables, conditions)
 ## UX/UI Design
 
 ### Design Elements
-- **Colors**:  
+- **Colours**:  
   Orange CTAs (energy) + Blue accents (trust)
 - **Typography**:  
   [Poppins](https://fonts.google.com/specimen/Poppins) (headings) + [Roboto](https://fonts.google.com/specimen/Roboto) (body)
 
 ### Key Visuals
-| Page       | Screenshot                              | Purpose                                  |
-|------------|-----------------------------------------|------------------------------------------|
-| **Home**   | ![Home](screenshots/home.png)           | Minecraft background for instant appeal  |
-| **Courses**| ![Courses](screenshots/courses.png)     | Icons for quick recognition             |
-| **About**  | ![About](screenshots/about.png)         | Gallery shows happy kids learning        |
+| Page       | Purpose                                 |
+|------------|-----------------------------------------|
+| **Home**   | Minecraft background for instant appeal |
+| **Courses**| Icons for quick recognition             |
+| **About**  | Gallery shows happy kids learning       |
 
 ### Wireframes - Figma()
 
 #### Desktop
-- Home_large screen_1039px
+- Home_large screen_1039px <br>
 (https://github.com/jackpoletek/code-kid-code/blob/main/assets/images/wireframes/Code%20Kid%20Code%20-%20Home_large%20screen_1039px.pdf)
 
-- Courses_large screen_1039px
+- Courses_large screen_1039px <br>
 (https://github.com/jackpoletek/code-kid-code/blob/main/assets/images/wireframes/Code%20Kid%20Code%20-%20Courses_large%20screen_1039px.pdf)
 
-- About_large screen_1039px
+- About_large screen_1039px <br>
 (https://github.com/jackpoletek/code-kid-code/blob/main/assets/images/wireframes/Code%20Kid%20Code%20-%20About_large%20screen_1039px.pdf)
 
 #### Tablet
-- Home_tablet_768px
+- Home_tablet_768px <br>
 (https://github.com/jackpoletek/code-kid-code/blob/main/assets/images/wireframes/Code%20Kid%20Code%20-%20Home_tablet_768px.pdf)
 
-- Courses_tablet_768px
+- Courses_tablet_768px <br>
 (https://github.com/jackpoletek/code-kid-code/blob/main/assets/images/wireframes/Code%20Kid%20Code%20-%20Courses_tablet_768px.pdf)
 
-- About_tablet_768px
+- About_tablet_768px <br>
 (https://github.com/jackpoletek/code-kid-code/blob/main/assets/images/wireframes/Code%20Kid%20Code%20-%20About_tablet_768px.pdf)
 
 #### Mobile
-- Home_mobile_398px
+- Home_mobile_398px <br>
 (https://github.com/jackpoletek/code-kid-code/blob/main/assets/images/wireframes/Code%20Kid%20Code%20-%20Home_mobile_398px.pdf)
 
-- Courses_mobile_398px
+- Courses_mobile_398px <br>
 (https://github.com/jackpoletek/code-kid-code/blob/main/assets/images/wireframes/Code%20Kid%20Code%20-%20Courses_mobile_398px.pdf)
 
-- About_mobile_398px
+- About_mobile_398px <br>
 (https://github.com/jackpoletek/code-kid-code/blob/main/assets/images/wireframes/Code%20Kid%20Code%20-%20About_mobile_398px.pdf)
 
 [View all wireframes](https://github.com/jackpoletek/code-kid-code/tree/main/assets/images/wireframes)
@@ -112,9 +112,9 @@ Code Kid Code transforms programming fundamentals (loops, variables, conditions)
 
 ## Technologies
 **Frontend**  
-[HTML5](https://en.wikipedia.org/wiki/HTML5)
-[CSS3](https://en.wikipedia.org/wiki/CSS)
-[Bootstrap](https://getbootstrap.com/)
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
+- [Bootstrap](https://getbootstrap.com/)
 
 **Assets**  
 - Icons: [Font Awesome 6](https://fontawesome.com/)
@@ -125,21 +125,21 @@ Code Kid Code transforms programming fundamentals (loops, variables, conditions)
 ### Validation
 - [W3C HTML Validator](https://validator.w3.org/) - 1 error
 
-- index.html
+- index.html <br>
 (https://github.com/jackpoletek/code-kid-code/blob/main/assets/images/validators-results/HTML_checker_index.jpg)
 
-- courses.html
+- courses.html <br>
 (https://github.com/jackpoletek/code-kid-code/blob/main/assets/images/validators-results/HTML_checker_courses.jpg)
 
-- about.html
+- about.html <br>
 (https://github.com/jackpoletek/code-kid-code/blob/main/assets/images/validators-results/HTML_checker_about.jpg)
 
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - 0 errors
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - 0 errors <br>
 
 (https://github.com/jackpoletek/code-kid-code/blob/main/assets/images/validators-results/CSS_checker.jpg)
 
 ### Performance
-![Lighthouse Score](screenshots/lighthouse.png)  
+[Lighthouse Score]  
 
 - index.html:
 (https://github.com/jackpoletek/code-kid-code/blob/main/assets/images/lighthouse-test/Lighthouse_index.jpg)
